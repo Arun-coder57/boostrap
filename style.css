@@ -1,0 +1,135 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* home page */
+.navbar{
+  padding-left: 0px;
+}
+.navbar-brand{
+  font-size: 2rem;
+}
+.col-md-6{
+  padding-top: 0px;
+}
+#r{
+  padding:90px;
+}
+.spo{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin-right: 15px;
+}
+.home{
+  background-color: #54e346;
+  padding: 60px;
+  padding-bottom:20px;
+}
+.fa{
+  margin-right: 10px;
+}
+.img{
+  transform: rotate(-20deg);
+  padding-top: 0px;
+  position: absolute;
+  right: 0px;
+}
+.button{
+  padding-bottom:30px;
+  color: #fff;
+  font-size: 3rem;
+}
+.carousel-item{
+  margin-left: 300px;
+  width: 100%;
+}
+.img1{
+  height: 400px;
+  width: 500px;
+}
+@media (max-width: 650px){
+.img{
+  transform: rotate(0deg);
+  position: static;
+  text-align: center;
+}
+#r{
+  padding: 40px 20px;
+}
+.btn{
+  margin-left: 80px;
+  margin-bottom: 20px;
+}
+.button{
+  text-align: center;
+}
+.btn-outline-dark{
+  margin-left:20px;
+
+}
+.carousel-item{
+  margin-left: 0px;
+}
+.img1{
+  height: 350px;
+  width: 350px;
+}
+}
+
+/* content  */
+.icon{
+  background-color: green;
+  margin-bottom: 30px;
+}
+.slide{
+  padding: 55px;
+}
+.pn{
+  padding: 30px;
+}
+#content{
+  background-color: white;
+  position: relative;
+}
+/* card */
+.row{
+  background-color:#54e346;
+  padding: 110px;
+}
+.card{
+  border-color:#54e346;
+  background-color:#54e346;
+}
+.card-header{
+  background-color: #61b15a;
+  text-align: center;
+}
+.card-body{
+  background-color: #f8f7de;
+  text-align:center;
+}
+#header{
+  border-radius: 30px 30px 0px 0px;
+}
+#body{
+  border-radius: 0px 0px 30px 30px;
+}
+/* Download */
+#Download{
+  padding: 100px;
+  text-align: center;
+}
+#Download h1{
+  margin-bottom: 20px;
+}
+/* Contact */
+#Contact{
+  background-color: #54e346;
+  padding:30px;
+  text-align: center;
+}
+#Contact p{
+  margin-bottom: 0px;
+  font-weight:lighter;
+  font-size: 12px;
+}
